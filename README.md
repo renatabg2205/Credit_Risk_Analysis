@@ -76,15 +76,15 @@ The purpose of this analysis is to evaluate the performance of 6 different machi
 
 ![Balanced Random Forest Classifier Risks](./Images/BalancedRandomForest2.PNG)
 
-- Balanced accuracy score:
+- Balanced accuracy score: 79%
 
 - Precision:
-  - High Risk:
-  - Low Risk:
+  - High Risk: 0.04
+  - Low Risk: 1.00
 
 - Recall: 
-  - High Risk:
-  - Low Risk:
+  - High Risk: 0.67
+  - Low Risk: 0.91
 
 ### 6. Easy Ensemble AdaBoost Classifier
 
@@ -92,15 +92,15 @@ The purpose of this analysis is to evaluate the performance of 6 different machi
 
 ![Easy Ensemble AdaBoost Classifier Risks](./Images/EasyEnsembleAdaBoost2.PNG)
 
-- Balanced accuracy score:
+- Balanced accuracy score: 93%
 
 - Precision:
-  - High Risk:
-  - Low Risk:
+  - High Risk: 0.07
+  - Low Risk: 1.00
 
 - Recall: 
-  - High Risk:
-  - Low Risk:
+  - High Risk: 0.91
+  - Low Risk: 0.94
 
 
 ## Summary
