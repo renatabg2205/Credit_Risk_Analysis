@@ -14,12 +14,12 @@ The purpose of this analysis is to evaluate the performance of 6 different machi
 - Balanced accuracy score: 66%
 
 - Precision:
-  - High Risk: 0.01
-  - Low Risk: 1.00
+  - High Risk: 1%
+  - Low Risk: 100%
 
 - Recall: 
-  - High Risk: 0.66
-  - Low Risk: 0.67
+  - High Risk: 66%
+  - Low Risk: 67%
 
 
 ### 2. SMOTE Oversampling
@@ -31,12 +31,12 @@ The purpose of this analysis is to evaluate the performance of 6 different machi
 - Balanced accuracy score: 63%
 
 - Precision:
-  - High Risk: 0.01
-  - Low Risk: 1.00
+  - High Risk: 1%
+  - Low Risk: 100%
 
 - Recall: 
-  - High Risk: 0.62
-  - Low Risk: 0.64
+  - High Risk: 62%
+  - Low Risk: 64%
 
 ### 3. Undersampling
 
@@ -47,12 +47,12 @@ The purpose of this analysis is to evaluate the performance of 6 different machi
 - Balanced accuracy score: 53%
 
 - Precision:
-  - High Risk: 0.01
-  - Low Risk: 1.00
+  - High Risk: 1%
+  - Low Risk: 100%
 
 - Recall: 
-  - High Risk: 0.61
-  - Low Risk: 0.45
+  - High Risk: 61%
+  - Low Risk: 45%
 
 ### 4. Combination (Over and Under) Sampling
 
@@ -63,12 +63,12 @@ The purpose of this analysis is to evaluate the performance of 6 different machi
 - Balanced accuracy score: 62%
 
 - Precision:
-  - High Risk: 0.01
-  - Low Risk: 1.00
+  - High Risk: 1%
+  - Low Risk: 100%
 
 - Recall: 
-  - High Risk: 0.70
-  - Low Risk: 0.54
+  - High Risk: 70%
+  - Low Risk: 54%
 
 ### 5. Balanced Random Forest Classifier
 
@@ -79,12 +79,12 @@ The purpose of this analysis is to evaluate the performance of 6 different machi
 - Balanced accuracy score: 79%
 
 - Precision:
-  - High Risk: 0.04
-  - Low Risk: 1.00
+  - High Risk: 4%
+  - Low Risk: 100%
 
 - Recall: 
-  - High Risk: 0.67
-  - Low Risk: 0.91
+  - High Risk: 67%
+  - Low Risk: 91%
 
 ### 6. Easy Ensemble AdaBoost Classifier
 
@@ -95,8 +95,8 @@ The purpose of this analysis is to evaluate the performance of 6 different machi
 - Balanced accuracy score: 93%
 
 - Precision:
-  - High Risk: 0.07
-  - Low Risk: 1.00
+  - High Risk: 7%
+  - Low Risk: 100%
 
 - Recall: 
   - High Risk: 0.91
