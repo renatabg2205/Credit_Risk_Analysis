@@ -99,13 +99,20 @@ The purpose of this analysis is to evaluate the performance of 6 different machi
   - Low Risk: 100%
 
 - Recall: 
-  - High Risk: 0.91
-  - Low Risk: 0.94
+  - High Risk: 91%
+  - Low Risk: 94%
 
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+The balanced accuracy scores range from 53% to 93%. The last 2 models (Balanced Random Forest Classifier and Easy Ensemble AdaBoost Classifier) had the highest scores, 79% and 93% respectively.
 
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+These 6 different machine learning models provided a low precision score for high risk credit, ranging from 1% to 7%. Based on these numbers, we can say that a lot of results were false positives and many low risk loans were presented as high risk loans.
+
+All 6 models provided 100% of precision for low risk loans.
+
+The recall values for the first 4 models range from 61%-67% for high risk loans and from 45%-67% for low risk loans. Based on these numbers, we can say that these 4 models are not providing a good enough loan classification prediction.
+
+The recall values for the last 2 models range from 70%-91% for high risk loans and from 91%-94% for low risk loans. These 2 models are providing a better loan classification prediction. 
+
+Based on these results, I would recommed the Easy Ensemble AdaBoost Classifier machine learning model because it provided the most 
