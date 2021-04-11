@@ -5,10 +5,6 @@ The purpose of this analysis is to evaluate the performance of 6 different machi
 
 ## Results
 
-!!!!!!!!!!
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
-!!!!!!!
-
 ### 1. Naive Random Oversampling
 
 ![Naive Random Oversampling Balanced accuracy score](./Images/NaiveRandomOversampling1.PNG)
@@ -26,15 +22,77 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   - Low Risk: 0.67
 
 
-- SMOTE Oversampling
+### 2. SMOTE Oversampling
 
-- Undersampling
+![SMOTE Oversampling Balanced accuracy score](./Images/SmoteOversampling1.PNG)
 
-- Combination (Over and Under) Sampling
+![SMOTE Oversampling Risks](./Images/SmoteOversampling2.PNG)
 
-- Balanced Random Forest Classifier
+- Balanced accuracy score:
 
-- Easy Ensemble AdaBoost Classifier
+- Precision:
+  - High Risk:
+  - Low Risk:
+
+- Recall: 
+  - High Risk:
+  - Low Risk:
+
+### 3. Undersampling
+
+![Undersampling Balanced accuracy score](./Images/Undersampling1.PNG)
+
+![Undersampling Risks](./Images/Undersampling2.PNG)
+
+- Balanced accuracy score:
+
+- Precision:
+  - High Risk:
+  - Low Risk:
+
+- Recall: 
+  - High Risk:
+  - Low Risk:
+
+### 4. Combination (Over and Under) Sampling
+
+![Combination (Over and Under) Sampling Balanced accuracy score](./Images/CombinationSampling1.PNG)
+
+![Combination (Over and Under) Sampling Risks](./Images/CombinationSampling2.PNG)
+
+- Balanced accuracy score:
+
+- Precision:
+  - High Risk:
+  - Low Risk:
+
+- Recall: 
+  - High Risk:
+  - Low Risk:
+
+### 5. Balanced Random Forest Classifier
+
+- Balanced accuracy score:
+
+- Precision:
+  - High Risk:
+  - Low Risk:
+
+- Recall: 
+  - High Risk:
+  - Low Risk:
+
+### 6. Easy Ensemble AdaBoost Classifier
+
+- Balanced accuracy score:
+
+- Precision:
+  - High Risk:
+  - Low Risk:
+
+- Recall: 
+  - High Risk:
+  - Low Risk:
 
 
 ## Summary
