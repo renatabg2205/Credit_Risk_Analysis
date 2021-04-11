@@ -28,15 +28,15 @@ The purpose of this analysis is to evaluate the performance of 6 different machi
 
 ![SMOTE Oversampling Risks](./Images/SmoteOversampling2.PNG)
 
-- Balanced accuracy score:
+- Balanced accuracy score: 63%
 
 - Precision:
-  - High Risk:
-  - Low Risk:
+  - High Risk: 0.01
+  - Low Risk: 1.00
 
 - Recall: 
-  - High Risk:
-  - Low Risk:
+  - High Risk: 0.62
+  - Low Risk: 0.64
 
 ### 3. Undersampling
 
@@ -44,15 +44,15 @@ The purpose of this analysis is to evaluate the performance of 6 different machi
 
 ![Undersampling Risks](./Images/Undersampling2.PNG)
 
-- Balanced accuracy score:
+- Balanced accuracy score: 53%
 
 - Precision:
-  - High Risk:
-  - Low Risk:
+  - High Risk: 0.01
+  - Low Risk: 1.00
 
 - Recall: 
-  - High Risk:
-  - Low Risk:
+  - High Risk: 0.61
+  - Low Risk: 0.45
 
 ### 4. Combination (Over and Under) Sampling
 
@@ -60,17 +60,21 @@ The purpose of this analysis is to evaluate the performance of 6 different machi
 
 ![Combination (Over and Under) Sampling Risks](./Images/CombinationSampling2.PNG)
 
-- Balanced accuracy score:
+- Balanced accuracy score: 62%
 
 - Precision:
-  - High Risk:
-  - Low Risk:
+  - High Risk: 0.01
+  - Low Risk: 1.00
 
 - Recall: 
-  - High Risk:
-  - Low Risk:
+  - High Risk: 0.70
+  - Low Risk: 0.54
 
 ### 5. Balanced Random Forest Classifier
+
+![Balanced Random Forest Classifier Balanced accuracy score](./Images/BalancedRandomForest1.PNG)
+
+![Balanced Random Forest Classifier Risks](./Images/BalancedRandomForest2.PNG)
 
 - Balanced accuracy score:
 
@@ -83,6 +87,10 @@ The purpose of this analysis is to evaluate the performance of 6 different machi
   - Low Risk:
 
 ### 6. Easy Ensemble AdaBoost Classifier
+
+![Easy Ensemble AdaBoost Classifier Balanced accuracy score](./Images/EasyEnsembleAdaBoost1.PNG)
+
+![Easy Ensemble AdaBoost Classifier Risks](./Images/EasyEnsembleAdaBoost2.PNG)
 
 - Balanced accuracy score:
 
