@@ -11,13 +11,19 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 ### 1. Naive Random Oversampling
 
-- Balanced accuracy score:
+![Naive Random Oversampling Balanced accuracy score](./Images/NaiveRandomOversampling1.PNG)
+
+![Naive Random Oversampling Risks](./Images/NaiveRandomOversampling2.PNG)
+
+- Balanced accuracy score: 66%
+
 - Precision:
-  - High Risk:
-  - Low Risk: 
+  - High Risk: 0.01
+  - Low Risk: 1.00
+
 - Recall: 
-  - High Risk:
-  - Low Risk: 
+  - High Risk: 0.66
+  - Low Risk: 0.67
 
 
 - SMOTE Oversampling
@@ -30,7 +36,6 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 - Easy Ensemble AdaBoost Classifier
 
-![Vine reviews](./Images/vine_reviews.PNG)
 
 ## Summary
 
