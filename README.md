@@ -8,11 +8,12 @@ The purpose of this analysis is to evaluate the performance of 6 different machi
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
 
-1. Naive Random Oversampling
+### 1. Naive Random Oversampling
+
 - Balanced accuracy score:
 - Precision:
---High Risk:
---Low Risk: 
+    High Risk:
+    Low Risk: 
 - Recall: 
 -- High Risk:
 -- Low Risk: 
