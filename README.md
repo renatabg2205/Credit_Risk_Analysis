@@ -115,4 +115,4 @@ The recall values for the first 4 models range from 61%-67% for high risk loans 
 
 The recall values for the last 2 models range from 70%-91% for high risk loans and from 91%-94% for low risk loans. These 2 models are providing a better loan classification prediction. 
 
-Based on these results, I would recommed the Easy Ensemble AdaBoost Classifier machine learning model because it provided the most 
+Based on these results, I would recommed the Easy Ensemble AdaBoost Classifier machine learning model because it provided the highest balanced accuracy score, as well as the highest precision and recall scores.
